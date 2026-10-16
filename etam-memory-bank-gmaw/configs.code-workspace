@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "configs"
+		},
+		{
+			"path": "efficient_track_anything"
+		},
+		{
+			"path": "efficient_track_anything/checkpoints"
+		},
+		{
+			"path": "efficient_track_anything/configs"
+		},
+		{
+			"path": "efficient_track_anything/csrc"
+		},
+		{
+			"path": "efficient_track_anything/modeling"
+		},
+		{
+			"path": "efficient_track_anything/utils"
+		},
+		{
+			"path": "src"
+		},
+		{
+			"path": "tools"
+		}
+	],
+	"settings": {}
+}

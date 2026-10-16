@@ -1,0 +1,96 @@
+# ============================================================
+# Nothing data-related leaves this machine.
+# Only source code, configs (yaml) and docs are tracked.
+# ============================================================
+
+# --- whole data folder (clips, annotations, VVT projects, CSVs) ---
+tracking_data/
+
+# --- any other data / output folders, wherever they appear ---
+data/
+private_data/
+clips/
+clips_*/
+frames/
+input_frames/
+annotations/
+references/
+sam_refined/
+comparisons/
+outputs/
+runs/
+logs/
+ERRORS/
+*_arcs_pred/
+ALS28T3/
+ALS28T3_*/
+
+# --- images ---
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tif
+*.tiff
+*.webp
+
+# --- video ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.cine
+
+# --- tables / annotations / results ---
+*.json
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.xls
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.bin
+
+# keep editor/workspace settings that are JSON-like but not data
+!configs.code-workspace
+
+# --- model weights (download from Drive, see README) ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# --- python environments and caches ---
+.venv/
+venv/
+env/
+hira-env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- secrets / local settings ---
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# --- misc ---
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
