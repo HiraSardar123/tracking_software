@@ -63,7 +63,7 @@ tracking_software/
     │   └── vvt/
     │       ├── index.html            <- THE ANNOTATION TOOL: open in Chrome/Firefox
     │       └── projects/clip_XXX.json  <- one empty project per clip
-    └── Tracking_Set_B/
+    └── Tracking_Set_B/              <- index.html file in this folder is changed to work with yolo.
         ├── (same layout as Set A)
         ├── clips_tracka/             <- extra clip set, if you were given it (not in git)
         └── vvt/index.html            <- same tool + optional YOLOv11x tracker
@@ -165,6 +165,11 @@ python -c "import torch; print(torch.cuda.is_available())"
 
 Full details: [etam-memory-bank-gmaw/SETUP_AND_INSTALLATION.md](etam-memory-bank-gmaw/SETUP_AND_INSTALLATION.md).
 
+---
+
+## Workflow: Annotation Strategies
+### For the tracking annotations, I personally used A4, in which I used the tool, with yolo assisted annotations. it is the recommended approach.
+### For the data, I would recommend pushing data to the tracking_set_b, since the html file is optimized to work with yolo.
 ---
 
 ## Workflow A: Annotate clips in the browser (VVT tool)
