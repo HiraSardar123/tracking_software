@@ -3,8 +3,8 @@
 # Only source code, configs (yaml) and docs are tracked.
 # ============================================================
 
-# --- whole data folder (clips, annotations, VVT projects, CSVs) ---
-tracking_data/
+# --- tracking_data: only READMEs and the VVT tool are pushed ---
+# (videos, CSVs and PNGs stay local; see the tracking_data block at the end)
 
 # --- any other data / output folders, wherever they appear ---
 data/
@@ -24,6 +24,7 @@ ERRORS/
 *_arcs_pred/
 ALS28T3/
 ALS28T3_*/
+clips_tracka/*
 
 # --- images ---
 *.jpg
@@ -94,3 +95,13 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ============================================================
+# tracking_data: push the VVT annotation tool as a whole + READMEs.
+# Never push videos, CSVs or PNGs from it.
+# (Must stay at the end so it overrides the rules above.)
+# ============================================================
+!tracking_data/*/vvt/**
+tracking_data/**/*.mp4
+tracking_data/**/*.csv
+tracking_data/**/*.png

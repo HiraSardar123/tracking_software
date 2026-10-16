@@ -31,7 +31,7 @@ tracking_software/
 
 | Not in git | What it is |
 |---|---|
-| `tracking_data/` | Video clips, annotations, assignment sheets and the VVT annotation tool |
+| `tracking_data/**/*.mp4`, `*.csv`, `*.png` | Video clips, `assignment.csv` sheets and example images (only the READMEs and the `vvt/` annotation tool are in git) |
 | `*.pt` weights | `efficienttam_s.pt` and YOLO `best.pt` |
 | images, videos, `.json`, `.csv`, `.parquet` | Frames, results and annotation files |
 | `.venv/` | Local Python environment |
@@ -61,9 +61,11 @@ Download the weights from the project's Google Drive folder (link in
 
 ### Data
 
-Put the tracking dataset in `tracking_data/` next to this README
-(`tracking_data/Tracking_Set_A`, `tracking_data/Tracking_Set_B`, ...). It is
-ignored by git and will never be committed.
+`tracking_data/Tracking_Set_A` and `tracking_data/Tracking_Set_B` contain the
+annotation instructions (`README.md`) and the VGG Visual Tracker tool
+(`vvt/`, with one empty project per clip). The clips (`clips/*.mp4`,
+`clips_tracka/`), `assignment.csv` and `README_examples.png` are not in git:
+copy them into the same folders locally before annotating.
 
 ## Run
 

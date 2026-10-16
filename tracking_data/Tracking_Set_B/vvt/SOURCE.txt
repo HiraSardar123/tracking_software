@@ -1,0 +1,7 @@
+VGG Visual Tracker (VVT) 1.0.0-pre, built on VGG Image Annotator (VIA) 3.0.10
+Authors: Prasanna Sridhar, Abhishek Dutta, Andrew Zisserman (Visual Geometry Group, Oxford)
+Page: https://www.robots.ox.ac.uk/~vgg/software/vvt/
+Download: https://www.robots.ox.ac.uk/~vgg/software/vvt/downloads/vvt-1.0.0-pre.zip
+sha256: 2301753f492f0ffe75532e96651c1f19800e76a80c28419d47e62d885cd111a9
+Licence: BSD 2-clause (file LICENSE, https://gitlab.com/vgg/via/-/raw/master/LICENSE)
+The copy in each annotation folder is unmodified.
