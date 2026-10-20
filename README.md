@@ -109,8 +109,7 @@ not store empty folders.
 
 ### Model weights (needed for the Python pipeline and the YOLO tracker)
 
-Download from
-**https://drive.google.com/drive/folders/1iY52wo8ZthAMKxm3gh3Hr5jdWVaijZyH?usp=sharing**
+Request access to them.
 
 | File | Put it here |
 |---|---|
